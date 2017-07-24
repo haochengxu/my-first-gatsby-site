@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from "gatsby-link"
 
-export default () => <div style={{ color: `tomato` }}  >
+export default () => <div style={{ color: `#F97300` }}  >
   
-  <h1>Hello Gatsby!</h1>
-   <p>What a world.</p>
-   <img src="http://lorempixel.com/400/200/" />
+  {/* <h1>Hello, this is Haocheng Xu</h1> */}
+   <p style={{color: `#A7D82E`}}>Life is too short to worry about anything.</p>
+   <img src="http://lorempixel.com/400/300/" />
    <br />
-   <Link to="/my-second-gatsby-page/">Link</Link>
+   <Link to="/posts/listing">Blog</Link>
    <br />
-   <Link to="/counter">Counter</Link>
+   <Link to="/counter">Project</Link>
 </div>
