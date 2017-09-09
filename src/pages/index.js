@@ -9,5 +9,5 @@ export default () => <div style={{ color: `#F97300` }}  >
    <br />
    <Link to="/posts/listing">Blog</Link>
    <br />
-   <Link to="/counter">Project</Link>
+   <Link to="/projects/counter">Project</Link>
 </div>
