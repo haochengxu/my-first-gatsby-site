@@ -1,13 +1,20 @@
 import React from 'react'
 import Link from "gatsby-link"
+import '../css/index.css'
+export default () => 
 
-export default () => <div style={{ color: `#F97300` }}  >
-  
-  {/* <h1>Hello, this is Haocheng Xu</h1> */}
-   <p style={{color: `#A7D82E`}}>Life is too short to worry about anything.</p>
-   <img src="http://lorempixel.com/400/300/" />
+<div className="body-container">
+  <div className="top">
+    <span id="social">
+      <h1>徐浩程</h1>
+    </span>
+  </div>
+   <p className="slogan" style={{color: `#0B409C`}}>Life is too short to worry about anything.</p>
+   {/* <img src="http://lorempixel.com/400/300/" /> */}
    <br />
-   <Link to="/posts/listing">Blog</Link>
-   <br />
-   <Link to="/projects/counter">Project</Link>
+   <div className="link">
+    <Link to="/posts/listing">Blog</Link>
+    <br />
+    <Link to="/projects/counter">Project</Link>
+   </div>
 </div>
